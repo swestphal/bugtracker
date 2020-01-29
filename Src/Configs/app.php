@@ -3,6 +3,6 @@
     return [
         'app_name' => 'Bug Report',
         'env' => 'local',
-        'debug' => 'true',
+        'debug' => TRUE,
         'log_path' => __DIR__ . '/../logger'
     ];

@@ -13,6 +13,8 @@
     namespace App\Helpers;
 
 
+    use App\Exception\NotFoundException;
+
     class Config
     {
 
@@ -40,8 +42,8 @@
                 }
 
             } catch (\Throwable $exception) {
-                throw new  \RuntimeException(
-                    sprintf("The specified file: %s was not found", $filename)
+                throw new  NotFoundException(
+                    sprintf("The specified file: %s was not found", $filename), ['not found file', 'data is passed']
                 );
             }
             return $fileContent;
