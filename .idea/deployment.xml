@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="bugtracker" uploadOnCheckin="8f5c6717-e29a-4f06-b58f-5de04407f951">
+    <serverData>
+      <paths name="bugtracker">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="bugtracker" />
+  </component>
+</project>

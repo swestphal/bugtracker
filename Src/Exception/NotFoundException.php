@@ -1,18 +1,10 @@
 <?php
-    /**
-     * NotFoundException.php
-     *
-     * author:      Simone Westphal
-     * copyright:   2020 thinkweb360 (https://thinkweb360.com)
-     *
-     * file:        NotFoundException.php
-     */
+declare(strict_types = 1);
+
+namespace App\Exception;
 
 
-    namespace App\Exception;
+class NotFoundException extends BaseException
+{
 
-
-    class NotFoundException extends BaseException
-    {
-
-    }
+}

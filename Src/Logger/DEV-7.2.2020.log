@@ -1,0 +1,12 @@
+2020-02-07 13:31:59 - Level: emergency - Message: There is an emergency - Context: {"exception":"exceeptuin occured"}
+2020-02-07 13:31:59 - Level: info - Message: User accoun created - Context: {"id":5}
+2020-02-07 13:32:01 - Level: emergency - Message: There is an emergency - Context: {"exception":"exceeptuin occured"}
+2020-02-07 13:32:01 - Level: info - Message: User accoun created - Context: {"id":5}
+2020-02-07 13:54:15 - Level: emergency - Message: There is an emergency - Context: {"exception":"exceeptuin occured"}
+2020-02-07 13:54:15 - Level: info - Message: User accoun created - Context: {"id":5}
+2020-02-07 13:54:26 - Level: emergency - Message: There is an emergency - Context: {"exception":"exceeptuin occured"}
+2020-02-07 13:54:26 - Level: info - Message: User accoun created - Context: {"id":5}
+2020-02-07 13:54:27 - Level: emergency - Message: There is an emergency - Context: {"exception":"exceeptuin occured"}
+2020-02-07 13:54:27 - Level: info - Message: User accoun created - Context: {"id":5}
+2020-02-07 13:54:51 - Level: emergency - Message: There is an emergency - Context: {"exception":"exceeptuin occured"}
+2020-02-07 13:54:51 - Level: info - Message: User accoun created - Context: {"id":5}

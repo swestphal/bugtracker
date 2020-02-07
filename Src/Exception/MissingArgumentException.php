@@ -1,18 +1,10 @@
 <?php
-    /**
-     * MissingArgumentException.php
-     *
-     * author:      Simone Westphal
-     * copyright:   2020 thinkweb360 (https://thinkweb360.com)
-     *
-     * file:        MissingArgumentException.php
-     */
+declare(strict_types = 1);
+
+namespace App\Exception;
 
 
-    namespace App\Exception;
+class MissingArgumentException extends BaseException
+{
 
-
-    class MissingArgumentException extends BaseException
-    {
-
-    }
+}

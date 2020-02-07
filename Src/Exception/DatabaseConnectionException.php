@@ -1,18 +1,10 @@
 <?php
-    /**
-     * DatabaseConnectionException.php
-     *
-     * author:      Simone Westphal
-     * copyright:   2020 thinkweb360 (https://thinkweb360.com)
-     *
-     * file:        DatabaseConnectionException.php
-     */
+declare(strict_types = 1);
+
+namespace App\Exception;
 
 
-    namespace App\Exception;
+class DatabaseConnectionException extends BaseException
+{
 
-
-    class DatabaseConnectionException extends BaseException
-    {
-
-    }
+}

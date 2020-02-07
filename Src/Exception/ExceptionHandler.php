@@ -1,30 +1,28 @@
 <?php
-    /**
-     * ExceptionHandler.php
-     *
-     * author:      Simone Westphal
-     * copyright:   2020 thinkweb360 (https://thinkweb360.com)
-     *
-     * file:        ExceptionHandler.php
-     */
+declare(strict_types = 1);
 
+namespace App\Exception;
 
-    namespace App\Exception;
+use App\Helpers\App;
+use Throwable, ErrorException;
 
-    use Throwable;
-    use App\Helpers\App;
+class ExceptionHandler
+{
 
-    class ExceptionHandler
+    public function handle(Throwable $exception): void
     {
-        public function handle(\Throwable $exception): void
-        {
-            $application = new App;
-            if ($application->isDebugMode()) {
-                var_dump($exception);
-            } else {
-                echo "This should not have happened, please try again";
-            }
-            exit;
+       $application = new App;
 
-        }
+       if($application->isDebugMode()){
+           var_dump($exception);
+       }else{
+           echo "This should not have happened, please try again";
+       }
+       exit;
     }
+
+    public function convertWarningsAndNoticesToException($severity, $message, $file, $line)
+    {
+        throw new ErrorException($message, $severity, $severity, $file, $line);
+    }
+}
